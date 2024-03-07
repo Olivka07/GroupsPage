@@ -1,0 +1,24 @@
+:root {
+    --font-family-main: system-ui, 'Times New Roman', Serif;
+
+    --font-size-m: 16px;
+    --font-line-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+    --width-img-m: 100px;
+    --height-img-m: 100px;
+
+    --width-img-l: 140px;
+    --height-img-l: 140px;
+
+    --width-img-xl: 250px;
+    --height-img-xl: 250px;
+}

@@ -1,0 +1,48 @@
+@import './variables/global.scss';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font: var(--font-m);
+    padding: 20px;
+}
+
+.ant-card-head-title,
+.ant-list-item,
+.ant-divider-inner-text,
+.ant-btn {
+    font: var(--font-m);
+}
+
+.ant-btn {
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    body {
+        font: var(--font-l);
+    }
+    .ant-card-head-title,
+    .ant-btn,
+    .ant-list-item,
+    .ant-divider-inner-text {
+        font: var(--font-l);
+    }
+}
+
+@media (min-width: 1700px) {
+    body {
+        font: var(--font-xl);
+    }
+    .ant-card-head-title,
+    .ant-btn,
+    .ant-list-item,
+    .ant-divider-inner-text {
+        font: var(--font-xl);
+    }
+}

@@ -1,0 +1,17 @@
+.placeholder {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.64);
+    font: var(--font-m);
+}
+
+@media (min-width: 1200px) {
+    .placeholder {
+        font: var(--font-l);
+    }
+}
+
+@media (min-width: 1700px) {
+    .placeholder {
+        font: var(--font-xl);
+    }
+}

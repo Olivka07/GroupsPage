@@ -1,0 +1,22 @@
+.meta {
+    color: rgba(128, 128, 128, 0.805);
+    font: var(--font-m);
+}
+
+.container {
+    margin-bottom: 20px;
+    position: relative;
+    height: calc(100vh / 3);
+}
+
+@media (min-width: 1200px) {
+    .meta {
+        font: var(--font-l);
+    }
+}
+
+@media (min-width: 1700px) {
+    .meta {
+        font: var(--font-xl);
+    }
+}

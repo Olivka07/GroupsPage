@@ -1,0 +1,38 @@
+.img {
+    width: var(--width-img-m);
+    height: var(--height-img-m);
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.name {
+    display: inline-block;
+    font: var(--font-m);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .img {
+        width: var(--width-img-l);
+        height: var(--height-img-l);
+    }
+
+    .name {
+        font: var(--font-l);
+    }
+}
+
+@media (min-width: 1700px) {
+    .img {
+        width: var(--width-img-xl);
+        height: var(--height-img-xl);
+    }
+
+    .name {
+        font: var(--font-xl);
+    }
+}
