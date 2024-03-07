@@ -1,10 +1,15 @@
 import React, { FC, useEffect, useState } from 'react';
-import './styles/index.scss';
-import { $data, GateData, fetchDataFx } from '../model';
+import {
+    $data,
+    GateData,
+    fetchDataFx,
+    $endOfData,
+    changeHeigthScroll
+} from '../model';
 import { useGate, useUnit } from 'effector-react';
 import { Loading } from '../components/Loading';
 import { GroupList } from '../components/GroupList';
-import { $endOfData, changeHeigthScroll } from '../model/store/units';
+import './styles/index.scss';
 
 const App: FC = () => {
     const [count, setCount] = useState<number>(5);
